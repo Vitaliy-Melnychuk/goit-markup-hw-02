@@ -19,25 +19,216 @@ a {
     overflow: hidden;
 }
 
-.a-background:hover, .a-background:focus {
+.hover-background:hover, .hover-background:focus {
     background-color: #2196F3;
     color: #ffffff;
 }
-.a-color:hover, .a-color:focus {
+.hover-color:hover, .hover-color:focus {
     color: #2196F3;
 }
 
-.color-blue {
+.logotype-studio {
+    width: 145px;
+    height: 31px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
     color: #2196F3;
 }
-.color-gray {
-    background-color: #F5F4FA;
+.logotype-span {
     color: #000000;
-    font-family: Roboto;
-    font-size: 16px;
+}
+
+.nav-studio {
+    width: 49px;
+    height: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 26px;
-    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+}
+.nav-portfolio {
+    width: 77px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+}
+.nav-contacts {
+    width: 68px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+}
+
+.header-email {
+    width: 135px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #757575;
+}
+.header-tel {
+    width: 122px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #757575;
+}
+
+.hero {
+    width: 1600px;
+    height: 600px;
+    background: #2F303A;
     text-align: center;
+}
+.hero-title {
+    width: 696px;
+    height: 120px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+.hero-a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.hero-p {
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+}
+
+.features-item-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+}
+.features-item-content {
+    width: 270px;
+    height: 75px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575;
+}
+
+.work-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #212121;
+}
+
+.team {
+    background: #F5F4FA;
+}
+.team-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #212121;
+}
+.team-item-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #212121;
+}
+.team-item-content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #757575;
+}
+
+.footer {
+    width: 1600px;
+    height: 252px;
+    background: #2F303A;
+}
+.footer-location {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.footer-email {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-tel {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.filter-item {
+    height: 38px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+.filter-item:hover, .filter-item:focus {
+    background: #2196F3;
+}
+.filter-item-content {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #212121;
+}
+.filter-item-content:hover, .filter-item-content:focus {
+    color: #FFFFFF;
+}
+
+.project-item-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    color: #212121;
+}
+.project-item-content {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #757575;
 }
