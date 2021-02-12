@@ -41,6 +41,9 @@ a {
 .hover-color:hover, .hover-color:focus {
     color: var(--blue-color);
 }
+a.currentLink {
+    color: var(--blue-color);
+ }
 
 .logotype-studio {
     width: 145px;
