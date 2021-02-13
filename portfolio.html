@@ -5,32 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <a href="index.html" class="logotype-studio hover-background">Web<span class="logotype-span-black">Studio</span></a>
-            <ul>
-                <li><a href="index.html" class="nav-studio hover-color">Студия</a></li>
-                <li><a href="portfolio.html" class="nav-portfolio hover-color currentLink">Портфолио</a></li>
-                <li><a href="" class="nav-contacts hover-color">Контакты</a></li>
-            </ul>
-        </nav>
-        <ul>
-            <li><a href="mailto:info@devstudio.com" class="header-email hover-color">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="header-tel hover-color">+38 096 111 11 11</a></li>
-        </ul>
+        <div class="container">
+            <div class="header location">
+                <nav class="nav location">
+                    <a href="index.html" class="logotype-studio hover-background">Web<span class="logotype-span-black">Studio</span></a>
+                    <ul class="nav-ul location">
+                        <li><a href="index.html" class="nav-link hover-color">Студия</a></li>
+                        <li><a href="portfolio.html" class="nav-link nav-portfolio hover-color currentLink">Портфолио</a></li>
+                        <li><a href="" class="nav-link hover-color">Контакты</a></li>
+                    </ul>
+                </nav>
+                <ul class="header-ul location">
+                    <li><a href="mailto:info@devstudio.com" class="header-email hover-color">info@devstudio.com</a></li>
+                    <li><a href="tel:+380961111111" class="header-tel hover-color">+38 096 111 11 11</a></li>
+                </ul>
+            </div>
+        </div>
     </header>
 
     <section class="projects">
         <h2 class="visually-hidden">Наши проекты</h2>
         <ul>
-            <li class="filter-item"><a href="" class="filter-item-content">все</a></li>
-            <li class="filter-item"><a href="" class="filter-item-content">Веб-сайты</a></li>
-            <li class="filter-item"><a href="" class="filter-item-content">Приложения</a></li>
-            <li class="filter-item"><a href="" class="filter-item-content">Дизайн</a></li>
-            <li class="filter-item"><a href="" class="filter-item-content">Маркетинг</a></li>
+            <li><button class="filter-btn">все</button></li>
+            <li><button class="filter-btn">Веб-сайты</button></li>
+            <li><button class="filter-btn">Приложения</button></li>
+            <li><button class="filter-btn">Дизайн</button></li>
+            <li><button class="filter-btn">Маркетинг</button></li>
         </ul>
         <ul>
             <li class="project-item">
